@@ -1,21 +1,21 @@
 import React from 'react'
 import { 
-  SiReact, 
-  SiTypescript, 
-  SiNodedotjs, 
-  SiPython, 
-  SiDocker, 
-  SiKubernetes 
-} from 'react-icons/si'
+  Layers, 
+  Code, 
+  Server, 
+  PythonIcon, 
+  Container, 
+  Cloud 
+} from 'lucide-react'
 import { motion } from 'framer-motion'
 
 const skills = [
-  { icon: SiReact, name: 'React' },
-  { icon: SiTypescript, name: 'TypeScript' },
-  { icon: SiNodedotjs, name: 'Node.js' },
-  { icon: SiPython, name: 'Python' },
-  { icon: SiDocker, name: 'Docker' },
-  { icon: SiKubernetes, name: 'Kubernetes' }
+  { icon: Layers, name: 'React' },
+  { icon: Code, name: 'TypeScript' },
+  { icon: Server, name: 'Node.js' },
+  { icon: PythonIcon, name: 'Python' },
+  { icon: Container, name: 'Docker' },
+  { icon: Cloud, name: 'Kubernetes' }
 ]
 
 export const SkillsSection: React.FC = () => {
@@ -37,7 +37,7 @@ export const SkillsSection: React.FC = () => {
               }}
               className="flex flex-col items-center justify-center p-6 bg-background rounded-xl shadow-md hover:shadow-xl transition-all"
             >
-              <skill.icon className="text-5xl mb-4 text-primary" />
+              <skill.icon className="w-12 h-12 mb-4 text-primary stroke-1" />
               <p className="text-sm font-medium">{skill.name}</p>
             </motion.div>
           ))}
