@@ -3,7 +3,7 @@ import {
   Layers, 
   Code, 
   Server, 
-  PythonIcon, 
+  Terminal, 
   Container, 
   Cloud 
 } from 'lucide-react'
@@ -13,7 +13,7 @@ const skills = [
   { icon: Layers, name: 'React' },
   { icon: Code, name: 'TypeScript' },
   { icon: Server, name: 'Node.js' },
-  { icon: PythonIcon, name: 'Python' },
+  { icon: Terminal, name: 'Python' },
   { icon: Container, name: 'Docker' },
   { icon: Cloud, name: 'Kubernetes' }
 ]
